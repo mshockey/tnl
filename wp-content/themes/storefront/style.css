@@ -1979,10 +1979,12 @@ video {
 }
 .woocommerce-active .site-branding, .woocommerce-active .site-logo-anchor, .woocommerce-active .site-logo-link{
   float: none !important;
+
 }
-media="all" .site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {
+@media all{
+.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {
     margin: auto;
-}
+}}
 .woocommerce-active .site-header .site-search{
   float: left !important;
 }
