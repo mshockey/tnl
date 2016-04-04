@@ -1977,8 +1977,10 @@ video {
 .primary-navigation{
   text-align: center !important;
 }
-.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link{
+.woocommerce-active .site-branding, .woocommerce-active .site-logo-anchor, .woocommerce-active .site-logo-link{
   float: none !important;
+}
+.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link{
   margin: auto !important;
 }
 .woocommerce-active .site-header .site-search{
