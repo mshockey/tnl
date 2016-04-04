@@ -54,7 +54,6 @@ if ( ! function_exists( 'storefront_header_cart' ) ) {
 				$class = '';
 			}
 		?>
-		<div class="menu-class">
 		<ul class="site-header-cart menu">
 			<li class="<?php echo esc_attr( $class ); ?>">
 				<?php storefront_cart_link(); ?>
@@ -63,7 +62,6 @@ if ( ! function_exists( 'storefront_header_cart' ) ) {
 				<?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
 			</li>
 		</ul>
-		</div>
 		<?php
 		}
 	}
