@@ -955,7 +955,7 @@ textarea {
   /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
   vertical-align: baseline;
   /* Improves appearance and consistency in all browsers */
-  *vertical-align: middle;
+  vertical-align: middle;
   /* Improves appearance and consistency in all browsers */ }
 
 button,
@@ -1979,6 +1979,7 @@ video {
 }
 .woocommerce-active .site-branding, .woocommerce-active .site-logo-anchor, .woocommerce-active .site-logo-link{
   float: none !important;
+
 }
 @media all{
 .site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {
