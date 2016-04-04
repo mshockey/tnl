@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'i7633212265424');
+define('DB_NAME', 'todaysnl');
 
 /** MySQL database username */
-define('DB_USER', 'i7633212265424');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'A3nzk{7b');
+define('DB_PASSWORD', 'Pointer39');
 
 /** MySQL hostname */
-define('DB_HOST', 'i7633212265424.db.3212265.hostedresource.com:3311');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -78,8 +78,8 @@ $table_prefix  = 'wp_ad5a1f4yw5_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-//define( 'WP_CACHE', true );
-require_once( dirname( __FILE__ ) . '/gd-config.php' );
+define( 'WP_CACHE', true );
+//require_once( dirname( __FILE__ ) . '/gd-config.php' );
 define( 'FS_METHOD', 'direct');
 define('FS_CHMOD_DIR', (0705 & ~ umask()));
 define('FS_CHMOD_FILE', (0604 & ~ umask()));
