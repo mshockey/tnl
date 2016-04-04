@@ -3,6 +3,6 @@ wp-content/mu-plugins/gd-system-plugin.php
 wp-content/mu-plugins/*
 wp-includes/
 wp-*.php
-!wp-config.php
+wp-config.php
 index.php
 gd-config.php
