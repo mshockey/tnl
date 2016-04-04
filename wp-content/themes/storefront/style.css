@@ -1971,20 +1971,3 @@ video {
     margin-right: 0;
     padding: 1.618em;
     background-color: rgba(0, 0, 0, 0.025); }
-.woocommerce-active .site-header .main-navigation{
-  width: 100% !important;
-}
-.primary-navigation{
-  text-align: center !important;
-}
-.woocommerce-active .site-branding, .woocommerce-active .site-logo-anchor, .woocommerce-active .site-logo-link{
-  float: none !important;
-
-}
-@media all{
-.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {
-    margin: auto;
-}}
-.woocommerce-active .site-header .site-search{
-  float: left !important;
-}
