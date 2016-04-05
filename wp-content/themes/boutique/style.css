@@ -468,6 +468,7 @@ table.cart td.actions {
     padding-right: 1em; } }
 .woocommerce-active .site-header .main-navigation{
   width: 100% !important;
+  background-color: #2b2b2b;
 }
 .primary-navigation{
   text-align: center !important;
@@ -482,4 +483,13 @@ table.cart td.actions {
 }}
 .woocommerce-active .site-header .site-search{
   float: left !important;
+}
+.site-branding, .site-search, .site-header-cart, .site-logo-anchor{
+  margin-bottom: 0px !important;
+}
+.woocommerce-active .site-header .site-header-cart{
+  padding-top: 0px !important;
+}
+.main-navigation{
+  padding-top: 0px !important;
 }
