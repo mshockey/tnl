@@ -51,7 +51,6 @@ add_action( 'storefront_footer', 'storefront_credit',			20 );
  * @see  storefront_popular_products()
  * @see  storefront_on_sale_products()
  */
-add_action( 'homepage', 'storefront_homepage_content',		10 );
 add_action( 'homepage', 'storefront_product_categories',	20 );
 add_action( 'homepage', 'storefront_recent_products',		30 );
 add_action( 'homepage', 'storefront_featured_products',		40 );
