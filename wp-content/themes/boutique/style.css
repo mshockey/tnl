@@ -468,7 +468,7 @@ table.cart td.actions {
     padding-right: 1em; } }
 .woocommerce-active .site-header .main-navigation{
   width: 100% !important;
-  background-color: #2b2b2b;
+  background-color: #2b2b2b !important;
 }
 .primary-navigation{
   text-align: center !important;
@@ -489,7 +489,15 @@ table.cart td.actions {
 }
 .woocommerce-active .site-header .site-header-cart{
   padding-top: 0px !important;
+  background-color: #2b2b2b;
 }
 .main-navigation{
   padding-top: 0px !important;
+}
+.site-header{
+  background-color: #fff;
+  padding: 1.236em 0em;
+}
+.boutique-primary-navigation{
+  margin: 1em;
 }
