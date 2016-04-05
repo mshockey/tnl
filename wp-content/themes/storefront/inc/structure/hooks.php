@@ -29,8 +29,8 @@ add_action( 'storefront_sidebar',			'storefront_get_sidebar',			10 );
  */
 add_action( 'storefront_header', 'storefront_skip_links', 				0 );
 add_action( 'storefront_header', 'storefront_product_search',   		30 );
-add_action( 'storefront_header', 'storefront_site_branding',			30 );
 add_action( 'storefront_header', 'storefront_header_cart', 		        30 );
+add_action( 'storefront_header', 'storefront_site_branding',			30 );
 add_action( 'storefront_header', 'storefront_primary_navigation',		100 );
 
 
